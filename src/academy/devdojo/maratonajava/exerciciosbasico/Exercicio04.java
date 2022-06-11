@@ -11,7 +11,8 @@ public class Exercicio04 {
          * Fórmula : (valor1*quant1 + valor2*quant2)*(IPI/100 + 1)
          *  */
 
-        int valorIPI = 35;
+//        int valorIPI = 35;
 
+        // Não entendi o que o exercício quer.
     }
 }
