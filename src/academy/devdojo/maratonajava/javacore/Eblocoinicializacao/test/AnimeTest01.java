@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Eblocoinicializacao.test;
 
-import academy.devdojo.maratonajava.javacore.Eblocoinicializacao.dominio.Anime;
+import academy.devdojo.maratonajava.javacore.Eblocoinicializacao.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
