@@ -19,6 +19,11 @@ public class Carro {
 
     public static void setVelocidadeLimite(double velocidadeLimite) {
         Carro.velocidadeLimite = velocidadeLimite;
+        /*
+        velocidadeLimite() não é um atributo de instância. É um atributo de CLASSE
+        por isso chamamos por Carro.velocidadeLimite
+        this não pode ser referênciado por um atritubo estático
+        */
     }
 
     public static double getVelocidadeLimite(){
