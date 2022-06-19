@@ -10,6 +10,9 @@ public class Jogador {
 
     public void imprime() {
         System.out.println(this.nome);
+        if(time != null){
+            System.out.println(time.getNome()); // indo dentro do obj Time pegar o 'nome'
+        }
     }
 
     public String getNome() {

@@ -1,11 +1,11 @@
 package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.domain;
 
 public class Carro {
-    private String nome;
+    private String nome; // atributo
     private double velocidadeMaxima;
     private static double velocidadeLimite = 250; // nosso limitador
 
-    public Carro(String nome, double velocidadeMaxima) {
+    public Carro(String nome, double velocidadeMaxima) { // método construtor
         this.nome = nome;
         this.velocidadeMaxima = velocidadeMaxima;
     }
