@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.javacore.GAssociação.domain;
 
-public class Time {
+public class Time { // Associação Bidirecional
     private String nome;
-    private Jogador[] jogadores;
+    private Jogador[] jogadores; // time tem jogador
 
     public Time(String nome) {
         this.nome = nome;
