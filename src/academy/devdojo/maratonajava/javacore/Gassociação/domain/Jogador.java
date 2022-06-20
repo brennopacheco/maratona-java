@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.GAssociação.domain;
+package academy.devdojo.maratonajava.javacore.Gassociação.domain;
 
 public class Jogador { // Associação Bidirecional
     private String nome;

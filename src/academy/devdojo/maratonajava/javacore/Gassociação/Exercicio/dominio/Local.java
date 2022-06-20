@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio;
+package academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio;
 
 public class Local {
     private String endereço;

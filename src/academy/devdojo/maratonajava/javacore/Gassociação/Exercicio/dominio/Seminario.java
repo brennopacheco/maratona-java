@@ -1,22 +1,18 @@
-package academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio;
+package academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio;
 
 public class Seminario {
     private String titulo;
     private Estudante[] estudantes;
     private Local local;
 
-    public Seminario(String titulo) {
+    public Seminario(String titulo, Local local) {
         this.titulo = titulo;
-    }
-
-    public Seminario(String titulo, Estudante[] estudantes) {
-        this(titulo);
-        this.estudantes = estudantes;
-    }
-
-    public Seminario(String titulo, Estudante[] estudantes, Local local) {
-        this(titulo, estudantes);
         this.local = local;
+    }
+
+    public Seminario(String titulo, Local local, Estudante[] estudantes) {
+        this(titulo, local);
+        this.estudantes = estudantes;
     }
 
     public String getTitulo() {

@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.test;
+package academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.test;
 
-import academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio.Estudante;
-import academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio.Local;
-import academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio.Professor;
-import academy.devdojo.maratonajava.javacore.GAssociação.Exercicio.dominio.Seminario;
+import academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio.Estudante;
+import academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio.Local;
+import academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio.Professor;
+import academy.devdojo.maratonajava.javacore.Gassociação.Exercicio.dominio.Seminario;
 
 public class AssociacaoTest01 {
     public static void main(String[] args) {
