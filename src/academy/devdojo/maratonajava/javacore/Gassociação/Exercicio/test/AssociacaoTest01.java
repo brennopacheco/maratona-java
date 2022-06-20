@@ -13,7 +13,7 @@ public class AssociacaoTest01 {
 
         Estudante[] estudantesSeminario = {estudante};
 
-        Seminario seminario = new Seminario("Progamação Java", estudantesSeminario, local);
+        Seminario seminario = new Seminario("Progamação Java", local, estudantesSeminario);
 
         Seminario[] seminariosDisponiveis = {seminario};
 
