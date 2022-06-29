@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Kenum.dominio;
+package academy.devdojo.maratonajava.javacore.Kenum.dominio;
 
 public enum TipoCliente {
     PESSOA_FISICA(1, "Pessoa Física"),
